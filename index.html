@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/main.css">
     <title>Interactive Rating</title>
 </head>
-<body>
-    <div>
-        <span class="star-icon"></span>
+<body class="h-screen flex align-center justify-center ">
+    <div class="w-50">
+        <img class="bg-slate-600 rounded-full p-1" src="./image/icon-star.svg" alt="Icon start image">
         <h1>How do we do?</h1>
         <p>Please let us know how we did with your surpport request.
             All feedback is appreciated to help us improve our offering.
         </p>
-        <div class="grid">
-            <div>1</div>
-            <div>2</div>
-            <div>3</div>
-            <div>4</div>
-            <div>5</div>
+        <div class="grid grid-cols-5 text-center gap-3">
+            <div class="bg-slate-600 rounded-full inline-block w-6">1</div>
+            <div class="bg-slate-600 rounded-full inline-block w-6">2</div>
+            <div class="bg-slate-600 rounded-full inline-block w-6">3</div>
+            <div class="bg-slate-600 rounded-full inline-block w-6">4</div>
+            <div class="bg-slate-600 rounded-full inline-block w-6">5</div>
         </div>
         <button>Submit</button>
     </div>
