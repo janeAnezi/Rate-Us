@@ -6,26 +6,30 @@
     <link rel="stylesheet" href="./src/main.css">
     <title>Interactive Rating</title>
 </head>
-<body class=" font-serif h-screen flex items-center justify-center bg-gradient-to-tr from-slate-700 to-slate-900">
-    <div id="ratingForm" class="bg-slate-800 text-white p-4 w-64 rounded-lg">
-        <div id="contentContainer"></div>
+<body class=" font-serif h-screen flex items-center justify-center bg-gradient-to-tr from-slate-800 to-slate-900">
+    <div id="ratingcontainer" class="bg-slate-800 text-white p-4 w-64 rounded-lg">
+        <div id="successPage"></div>
 
-        <img class="bg-slate-700 rounded-full p-1" src="./image/icon-star.svg" alt="Icon start image">
-        <h1 class="py-2">How did we do?</h1>
-        <p class="text-slate-400 text-xs">Please let us know how we did with your surpport request.
-            All feedback is appreciated to help us improve our offering.
-        </p>
-        <div id="rating" class="grid grid-cols-5 text-center text-slate-400 my-3 text-xs">
-            <div class="bg-slate-700 hover:bg-slate-400 hover:text-white rounded-full inline-block w-6 p-1 cursor-pointer">1</div>
-            <div class="bg-slate-700 hover:bg-slate-400 hover:text-white rounded-full inline-block w-6 p-1 cursor-pointer">2</div>
-            <div class="bg-slate-700 hover:bg-slate-400 hover:text-white rounded-full inline-block w-6 p-1 cursor-pointer">3</div>
-            <div class="bg-slate-700 hover:bg-slate-400 hover:text-white rounded-full inline-block w-6 p-1 cursor-pointer">4</div>
-            <div class="bg-slate-700 hover:bg-slate-400 hover:text-white rounded-full inline-block w-6 p-1 cursor-pointer">5</div>
+        <div class="contentContainer hidden">
+             <img class="bg-slate-700 rounded-full p-1" src="./image/icon-star.svg" alt="Icon start image">
+            <h1 class="py-2">How did we do?</h1>
+            <p class="text-slate-400 text-xs">Please let us know how we did with your surpport request.
+                All feedback is appreciated to help us improve our offering.
+            </p>
+            <div id="rating" class="grid grid-cols-5 text-center text-slate-400 my-3 text-xs">
+                <div class="bg-slate-700 hover:bg-slate-400 hover:text-white rounded-full inline-block w-6 p-1 cursor-pointer">1</div>
+                <div class="bg-slate-700 hover:bg-slate-400 hover:text-white rounded-full inline-block w-6 p-1 cursor-pointer">2</div>
+                <div class="bg-slate-700 hover:bg-slate-400 hover:text-white rounded-full inline-block w-6 p-1 cursor-pointer">3</div>
+                <div class="bg-slate-700 hover:bg-slate-400 hover:text-white rounded-full inline-block w-6 p-1 cursor-pointer">4</div>
+                <div class="bg-slate-700 hover:bg-slate-400 hover:text-white rounded-full inline-block w-6 p-1 cursor-pointer">5</div>
+            </div>
+            <button type="submit" class="bg-orange-500 hover:bg-slate-300 hover:text-orange-600 inline-block w-[13rem] p-1 text-xs rounded-xl cursor-pointer">SUBMIT</button>
         </div>
-        <button type="submit" class="bg-orange-500 hover:bg-slate-300 hover:text-orange-600 inline-block w-[13rem] p-1 text-xs rounded-xl cursor-pointer">SUBMIT</button>
-    
+       
     </div>
-    
+
+
+    <script src="./src/main.js"></script>
 
 </body>
 </html>
