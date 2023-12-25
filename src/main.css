@@ -660,6 +660,16 @@ video {
   height: 5rem;
 }
 
+.size-24 {
+  width: 6rem;
+  height: 6rem;
+}
+
+.size-32 {
+  width: 8rem;
+  height: 8rem;
+}
+
 .h-screen {
   height: 100vh;
 }
@@ -883,4 +893,9 @@ video {
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.active\:bg-orange-400:active {
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 146 60 / var(--tw-bg-opacity));
 }
