@@ -1,4 +1,6 @@
-const ratingContainer = document.getElementById('ratingContainer');
+const ratingContainer = document.getElementById('ratingcontainer');
+const rating = document.getElementById('rating');
+const submit = document.getElementById('submit');
 
 function submitRating() {
     // Get the selected rating value
