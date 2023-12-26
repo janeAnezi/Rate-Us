@@ -1,4 +1,4 @@
-
+const ratingContainer = document.getElementById('ratingContainer');
 
 function submitRating() {
     // Get the selected rating value
